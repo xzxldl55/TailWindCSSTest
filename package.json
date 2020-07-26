@@ -8,16 +8,28 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "tailwindcss": "^1.5.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",
     "@vue/cli-service": "~4.4.0",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "autoprefixer": "^9.8.5",
+    "postcss-loader": "^3.0.0",
+    "precss": "^4.0.0",
+    "sugarss": "^2.0.0"
   },
   "browserslist": [
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {},
+      "precss": {},
+      "tailwindcss": {}
+    }
+  }
 }
